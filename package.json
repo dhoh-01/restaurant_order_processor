@@ -2,7 +2,7 @@
   "name": "restaurant_order_processor",
   "version": "1.0.0",
   "description": "This is a restaurant order processor",
-  "main": "index.js",
+  "main": "src/order_processor.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,6 @@
   "bugs": {
     "url": "https://github.com/dhoh-01/restaurant_order_processor/issues"
   },
-  "homepage": "https://github.com/dhoh-01/restaurant_order_processor#readme"
+  "homepage": "https://github.com/dhoh-01/restaurant_order_processor#readme",
+  "type": "module"
 }

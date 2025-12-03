@@ -14,6 +14,9 @@ This app will do the following:
 	3) totals
 	4) taxes
 
+## Node version
+This is a node project, running on Node.js v24.11.1
+
 ## Installation
 TBA
 
@@ -21,7 +24,10 @@ TBA
 TBA
 
 ## Tests
-TBA
+To run the unit tests, run the following commands
+```
+npm --test
+```
 
 ## Usage
 TBA

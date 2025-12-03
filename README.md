@@ -1,2 +1,33 @@
 # restaurant_order_processor
 This is a restaurant order processor
+
+This app will do the following:
+- choose from 2 types of burgers and 2 sizes of soft drink with the following names and prices
+	1) Cheeseburger $15
+	2) Chicken burger $20
+	3) Small soft drink $4
+	4) Large soft drink $5
+- any number of options may be added to count
+- output should display
+	1) line items
+	2) subtotals
+	3) totals
+	4) taxes
+
+## Installation
+TBA
+
+## Project Structure
+TBA
+
+## Tests
+TBA
+
+## Usage
+TBA
+
+## Roadmap
+The following is the road map for this project
+1) CLI
+2) server api
+2) UI

@@ -16,6 +16,7 @@ This app will do the following:
 
 ## Dependancy version
 This is a node project, running on Node.js v24.11.1
+This project requires sqlite3
 
 ## Installation
 TBA

@@ -17,5 +17,8 @@
     "url": "https://github.com/dhoh-01/restaurant_order_processor/issues"
   },
   "homepage": "https://github.com/dhoh-01/restaurant_order_processor#readme",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "sqlite": "^5.1.1"
+  }
 }

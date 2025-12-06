@@ -4,7 +4,7 @@
   "description": "This is a restaurant order processor",
   "main": "src/order_processor.js",
   "scripts": {
-    "start": "node src/order_processor.js",
+    "start": "node --no-warnings src/order_processor.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,6 +19,6 @@
   "homepage": "https://github.com/dhoh-01/restaurant_order_processor#readme",
   "type": "module",
   "dependencies": {
-    "sqlite": "^5.1.1"
+    "sqlite3": "^5.1.7"
   }
 }

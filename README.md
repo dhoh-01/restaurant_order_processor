@@ -19,10 +19,10 @@ This is a node project, running on Node.js v24.11.1
 This project requires sqlite3
 
 ## Installation
-TBA
-
-## Project Structure
-TBA
+To install, run the following:
+```
+npm install
+```
 
 ## Tests
 To run the unit tests, run the following commands
@@ -31,10 +31,13 @@ npm --test
 ```
 
 ## Usage
-TBA
+To run the app, use the following command:
+```
+npm run start
+```
 
 ## Roadmap
 The following is the road map for this project
-1) CLI
+1) CLI (done!)
 2) server api
-2) UI
+3) UI

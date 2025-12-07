@@ -24,15 +24,7 @@ export class Pricer {
 		return this.items.get(item) * this.item_price.get(item);
 	}
 
-	calculate_gst() {
-	
-	}
-
 	get_items() {
 		return this.items;
-	}
-
-	get_total() {
-
 	}
 }

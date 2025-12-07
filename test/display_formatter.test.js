@@ -28,7 +28,7 @@ test("display_formatter.js/print_receipt() prints the correct formated output", 
 		"Bananas x 1 $20",
 		"",
 		"Total $30",
-		"Including GST ($3)",
+		"Including GST ($3.00)",
 		"================================="
 	]);
 	console.log = originalLog ;

@@ -68,7 +68,8 @@ export function print_receipt({ db, pricer, order_item, GST }) {
 		total += item_price;
 		output_line(`${item_name} x ${item_count} $${item_price}`)
 	});
-	let total_gst = total * GST;
+	let total_gst = (Math.round(total * GST * 100) / 100).toFixed(2);
+
 
 	output_line("");
 	output_line(`Total $${total}`);
